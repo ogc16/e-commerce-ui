@@ -607,3 +607,9 @@ Contributions are welcome — whether fixing an item from the table above or add
 4. **Open a Pull Request** against the `completed` branch with a clear description of the change and, for UI work, a before/after screenshot.
 
 Please keep the two apps independent (no shared workspace) and follow the existing patterns — Tailwind classes inline, `// TEMPORARY` markers on mock data, and server components by default.
+
+---
+
+## License
+
+Released under the [MIT License](LICENSE).
