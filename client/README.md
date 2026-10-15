@@ -161,16 +161,15 @@ Objective gaps in the current code — good starting points for contributions:
 | # | Issue | Location |
 |---|---|---|
 | 1 | `/login` is linked from the navbar but no route exists (404) | `src/components/Navbar.tsx:31` |
-| 2 | `package.json` has a corrupted devDependency: `"@tailwindcss/postcss": "@hookform/resolvers/zod"` (invalid version) | `package.json` |
-| 3 | Category selection writes `?category=` but the product list never filters by it | `src/components/ProductList.tsx` |
-| 4 | `Filter.tsx` writes `?sort=` but the sort is never applied to the data | `src/components/Filter.tsx` |
-| 5 | `SearchBar` has no submit handler — search is visual only | `src/components/SearchBar.tsx` |
-| 6 | "Buy this Item" button has no handler | `src/components/ProductInteraction.tsx:122` |
-| 7 | Order summary shows a hard-coded `$10` discount and ignores the `$10` shipping fee in the total | `src/app/cart/page.tsx:193-210` |
-| 8 | `handlePaymentForm` body is empty (no API call, no confirmation step) | `src/components/PaymentForm.tsx:19` |
-| 9 | Product mock data is duplicated across `ProductList.tsx` and `products/[id]/page.tsx` | see files |
-| 10 | `generateMetadata` uses a `describe` key instead of `description` | `src/app/products/[id]/page.tsx:32` |
-| 11 | No tests and no CI | repo-wide |
+| 2 | Category selection writes `?category=` but the product list never filters by it | `src/components/ProductList.tsx` |
+| 3 | `Filter.tsx` writes `?sort=` but the sort is never applied to the data | `src/components/Filter.tsx` |
+| 4 | `SearchBar` has no submit handler — search is visual only | `src/components/SearchBar.tsx` |
+| 5 | "Buy this Item" button has no handler | `src/components/ProductInteraction.tsx:122` |
+| 6 | Order summary shows a hard-coded `$10` discount and ignores the `$10` shipping fee in the total | `src/app/cart/page.tsx:193-210` |
+| 7 | `handlePaymentForm` body is empty (no API call, no confirmation step) | `src/components/PaymentForm.tsx:19` |
+| 8 | Product mock data is duplicated across `ProductList.tsx` and `products/[id]/page.tsx` | see files |
+| 9 | `generateMetadata` uses a `describe` key instead of `description` | `src/app/products/[id]/page.tsx:32` |
+| 10 | No tests and no CI | repo-wide |
 
 ---
 
